@@ -109,7 +109,7 @@ const Contact = () => {
             <input 
               type="hidden" 
               name="_next" 
-              value="https://yourdomain.com/thank-you"  // Replace with your thank you page
+              value="https://samiran.vercel.app/"  // Replace with your thank you page
             />
             <input 
               type="hidden" 
