@@ -114,16 +114,21 @@ const Hero = () => {
         </div>
       </div>
 
+      <div>
+
       <motion.a
-        href="#about"
-        initial={{ opacity: 0, y: 20 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ delay: 1, duration: 0.5 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-primary z-20"
-      >
-        <span className="mb-1 text-sm sm:text-base">Scroll Down</span>
-        <FiChevronDown className="animate-bounce" size={20} />
-      </motion.a>
+  href="#about"
+  initial={{ opacity: 0, y: 20 }}
+  animate={inView ? { opacity: 1, y: 0 } : {}}
+  transition={{ delay: 1, duration: 0.5 }}
+  className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center w-max text-primary z-20"
+>
+  <span className="mb-1 text-sm sm:text-base">Scroll Down</span>
+  <FiChevronDown className="animate-bounce" size={20} />
+</motion.a>
+      </div>
+
+
     </section>
   )
 }
