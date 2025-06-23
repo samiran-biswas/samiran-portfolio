@@ -219,7 +219,7 @@ const Testimonials = () => {
       </motion.div>
 
       {/* Project Videos Section */}
-      <motion.div
+      {/* <motion.div
         animate={inView ? { opacity: 1 } : {}}
         transition={{ duration: 0.5, delay: 0.4 }}
         className="mb-20"
@@ -281,7 +281,7 @@ const Testimonials = () => {
             </motion.div>
           ))}
         </div>
-      </motion.div>
+      </motion.div> */}
 
       {/* Tech Stack Section */}
       <motion.div
